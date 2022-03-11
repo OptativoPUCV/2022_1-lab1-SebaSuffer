@@ -12,12 +12,7 @@ y en c almacena el valor de la suma de a más b.
 */
 
 void suma(int a, int b, int * c) {
-   int a, b, c;
-   size_t i;
-
-   c = a + b;
-   printf("%i", c);
-   return 0;
+   *c = a + b;
 }
 
 /*

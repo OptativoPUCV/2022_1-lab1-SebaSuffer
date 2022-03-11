@@ -2,3 +2,38 @@ Fri Mar 11 18:54:01 HSP 2022:
  tests:  0|7
 total_score: 0/70
 a909887
+Fri Mar 11 18:55:41 HSP 2022: 
+ exercises.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'suma':
+exercises.c:15:8: error: 'a' redeclared as different kind of symbol
+    int a, b, c;
+        ^
+exercises.c:14:15: note: previous definition of 'a' was here
+ void suma(int a, int b, int * c) {
+               ^
+exercises.c:15:11: error: 'b' redeclared as different kind of symbol
+    int a, b, c;
+           ^
+exercises.c:14:22: note: previous definition of 'b' was here
+ void suma(int a, int b, int * c) {
+                      ^
+exercises.c:15:14: error: 'c' redeclared as different kind of symbol
+    int a, b, c;
+              ^
+exercises.c:14:31: note: previous definition of 'c' was here
+ void suma(int a, int b, int * c) {
+                               ^
+exercises.c:20:11: error: 'return' with a value, in function returning void [-Werror]
+    return 0;
+           ^
+exercises.c:14:6: note: declared here
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:16:11: error: unused variable 'i' [-Werror=unused-variable]
+    size_t i;
+           ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+6cbafc5

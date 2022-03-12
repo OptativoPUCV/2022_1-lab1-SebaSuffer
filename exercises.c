@@ -37,8 +37,8 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-
-}
+   *suma = sumaN(a+(n-m), m);
+   }
 
 /*
 Ejercicio 3.
@@ -55,7 +55,14 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-   return NULL;
+   /*char *name = 'sebita';
+   size_t edad = 16, rut = 212575682;
+
+   strcpy(*crearPersona.nombre, name);
+   *crearPersona.rut = rut;
+   *crearPersona.edad = edad;
+   
+   return NULL; /*
 }
 
 /*
@@ -71,7 +78,7 @@ typedef struct {
    int capacidad; // capacidad del arreglo
 } Vector;
 
-Vector * crearVector(int n) {
+Vector * crearVector(int n){
    return NULL;
 }
 

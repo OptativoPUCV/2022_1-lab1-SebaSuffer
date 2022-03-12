@@ -94,3 +94,21 @@ Sat Mar 12 19:02:40 HSP 2022:
  tests:  3|4
 total_score: 30/70
 f4aeb37
+Sat Mar 12 19:48:23 HSP 2022: 
+ exercises.c | 11 +++++++----
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:83:10: error: expected identifier or '(' before '->' token
+    Vector->capacidad = n;
+          ^~
+exercises.c: In function 'asignarValor':
+exercises.c:93:4: error: invalid type argument of unary '*' (have 'Vector {aka struct <anonymous>}')
+    *v[i] = valor;
+    ^~~~~
+exercises.c: In function 'obtenerValor':
+exercises.c:103:10: error: incompatible types when assigning to type 'int' from type 'Vector {aka struct <anonymous>}'
+    valor = v[i];
+          ^
+Compilation failed
+9846593

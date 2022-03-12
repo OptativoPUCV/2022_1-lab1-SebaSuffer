@@ -140,3 +140,22 @@ exercises.c:103:10: error: incompatible types when assigning to type 'int' from 
 cc1.exe: all warnings being treated as errors
 Compilation failed
 f86a7e6
+Sat Mar 12 20:05:38 HSP 2022: 
+ exercises.c | 10 ++++------
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'obtenerValor':
+exercises.c:102:10: error: incompatible types when assigning to type 'int' from type 'Vector {aka struct <anonymous>}'
+    valor = v[i];
+          ^
+test.c: In function 'test_asignarObtenerValor':
+test.c:160:5: error: implicit declaration of function 'asignarValor' [-Werror=implicit-function-declaration]
+     asignarValor(v, 0, a);
+     ^~~~~~~~~~~~
+test.c: In function 'test_sumaV':
+test.c:211:5: error: implicit declaration of function 'sumaV' [-Werror=implicit-function-declaration]
+     sumaV(v1, v2, v3);
+     ^~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+c3792b4

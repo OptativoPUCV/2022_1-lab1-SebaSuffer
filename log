@@ -197,3 +197,13 @@ Sat Mar 12 20:18:45 HSP 2022:
  tests:  4|3
 total_score: 40/70
 cd91036
+Sat Mar 12 20:55:21 HSP 2022: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:94:9: error: incompatible types when assigning to type 'Vector {aka struct <anonymous>}' from type 'int'
+    v[i] = valor;
+         ^
+Compilation failed
+633c8f4

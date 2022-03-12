@@ -105,7 +105,7 @@ int obtenerValor(Vector * v, int i) {
    valor = v[i];
    return valor;
    */
-  return NULL;
+  return 0;
 }
 
 /*

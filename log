@@ -180,3 +180,14 @@ test.c:231:5: error: implicit declaration of function 'sumaV2' [-Werror=implicit
 cc1.exe: all warnings being treated as errors
 Compilation failed
 1277acc
+Sat Mar 12 20:15:57 HSP 2022: 
+ exercises.c | 15 ++++++++++-----
+ 1 file changed, 10 insertions(+), 5 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'obtenerValor':
+exercises.c:108:10: error: return makes integer from pointer without a cast [-Werror=int-conversion]
+   return NULL;
+          ^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+1cfc327

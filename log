@@ -217,3 +217,14 @@ exercises.c:94:13: error: expected identifier or '(' before '->' token
              ^~
 Compilation failed
 6bdfb06
+Sun Mar 13 16:10:11 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:94:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before '->' token
+    Vector *nVector->v[i] = valor;
+                   ^~
+exercises.c:94:19: error: expected expression before '->' token
+Compilation failed
+fdbd27b

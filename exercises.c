@@ -91,7 +91,7 @@ la cual asigna el valor a la posición i del vector v.
 */
 
 void asignarValor(Vector * v, int i, int valor) {
-      Vector->v[i] = valor;
+   Vector *nVector->v[i] = valor;
 }
 
 /*

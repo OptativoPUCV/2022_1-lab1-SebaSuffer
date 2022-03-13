@@ -228,3 +228,23 @@ exercises.c:94:19: error: expected '=', ',', ';', 'asm' or '__attribute__' befor
 exercises.c:94:19: error: expected expression before '->' token
 Compilation failed
 fdbd27b
+Sun Mar 13 16:11:13 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:94:4: error: variable-sized object may not be initialized
+    Vector *v[i] = valor;
+    ^~~~~~
+exercises.c:94:12: error: 'v' redeclared as different kind of symbol
+    Vector *v[i] = valor;
+            ^
+exercises.c:93:28: note: previous definition of 'v' was here
+ void asignarValor(Vector * v, int i, int valor) {
+                            ^
+exercises.c:94:12: error: unused variable 'v' [-Werror=unused-variable]
+    Vector *v[i] = valor;
+            ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+8368889

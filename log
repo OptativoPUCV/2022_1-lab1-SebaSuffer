@@ -270,3 +270,17 @@ Sun Mar 13 21:52:39 HSP 2022:
  tests:  6|2
 total_score: 50/70
 c8b3631
+Sun Mar 13 21:56:59 HSP 2022: 
+ exercises.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV':
+exercises.c:115:20: error: invalid operands to binary + (have 'int *' and 'int *')
+    suma = a->datos + b->datos;
+           ~~~~~~~~ ^ ~~~~~~~~
+exercises.c:116:13: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c->datos = suma;
+             ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+1693ec7

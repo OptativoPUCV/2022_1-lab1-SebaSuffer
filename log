@@ -258,3 +258,9 @@ exercises.c:94:4: error: invalid type argument of unary '*' (have 'Vector {aka s
     ^~~~~
 Compilation failed
 e8d0ed2
+Sun Mar 13 21:36:42 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+81242cf
